@@ -28,8 +28,8 @@
     @objc(isDarkModeEnabled:)
     func isDarkModeEnabled(command: CDVInvokedUrlCommand) {
         var enabled: Bool = false;
-        if #available(iOS 12.0, *) {
-            enabled = self.viewController.traitCollection.userInterfaceStyle == .dark;
+        if #available(iOS 13.0, *) {
+            enabled = UIScreen.main.traitCollection.userInterfaceStyle == .dark;
         }
         
         var responseMessage = "Dark mode is not enabled";
