@@ -25,6 +25,7 @@
             </feature>
         </config-file>
         <source-file src="src/ios/ThemeDetection.swift" />
+        <header-file src="src/ios/ThemeDetection-Bridging-Header.h" />
     </platform>
 
     <!-- android -->
