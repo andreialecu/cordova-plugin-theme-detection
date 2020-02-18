@@ -32,7 +32,7 @@
             enabled = UIScreen.main.traitCollection.userInterfaceStyle == .dark;
         }
         
-        var responseMessage = "Dark mode is not enabled";
+        var responseMessage = "Dark mode is not enabled UIScreen";
         if(enabled) {
             responseMessage = "Dark mode is enabled";
         }
